@@ -148,8 +148,6 @@ h3 {
     display: none;
 }
 
-
-
 button{
     font-size: 22px;
     padding-left: 32px;
@@ -161,6 +159,50 @@ button{
     color: #6BEFEF;
     margin: 0 auto;
 }
+
+footer{
+    width: auto;
+    background-color:  rgb(146, 146, 146);
+    line-height: 10px ;       
+    clear: both;
+    padding: 28px;         
+    color: #6BEFEF;
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+.icon-social ul{
+    display: inline-block;
+    height: inherit;
+    float: right;
+    width: 75%;
+    margin: 0;
+    line-height: 60px;
+}
+
+.icon-social li{
+    display: inline-block;
+    height: inherit;
+    float: right;   
+}
+
+footer img {
+    max-width: 10%;
+}
+
+.contact-footer{
+    float: right;
+    text-decoration: none;
+    color: #6BEFEF;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    background-color: rgb(24, 13, 63);
+    color: rgb(185, 178, 178);
+}
+
 /*---- Desktop Starts ------*/
 
 @media only screen and (min-width: 1200px){
@@ -242,5 +284,13 @@ button{
 
     .test{
         display: flex;
+    }
+
+    footer img {
+        max-width: 10%;
+    }
+
+    .contact-footer{
+        font-size: 50px;
     }
 }
