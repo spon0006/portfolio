@@ -394,6 +394,23 @@ iframe{
     height: 500px;
 }
 
+.imgtest img{
+    max-width: 20em;
+    margin: 0 auto;
+    float: left;
+}
+
+.imgtest p{
+    color: #CE8198;
+    font-size: 3em;
+    text-align: center;
+}
+
+.port-container img{
+    max-width: 35em;
+    margin: 0 auto;
+}
+
 /*---- Desktop Starts ------*/
 
 @media only screen and (min-width: 1200px){
@@ -486,7 +503,7 @@ iframe{
     }
 
     .port .port-container img{
-        max-width: 50%;
+        max-width: 20%;
         border-radius: 20%;
         margin: 0 auto;
         
