@@ -280,8 +280,6 @@ footer{
     max-width: 5%;
 }
 
-
-
 .contact-footer{
     float: right;
     text-decoration: none;
@@ -613,5 +611,9 @@ iframe{
     .port-container img{
         max-width: 39.4em;
         margin: 0 auto;
+    }
+
+    .icons-social-img {
+        max-width: 5%;
     }
 }
