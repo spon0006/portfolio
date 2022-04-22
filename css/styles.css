@@ -34,7 +34,6 @@ h3 {
 
 
 .menu{
-    display: float;
     width: 100%;
     height: auto;
     margin: 20px auto;
@@ -142,7 +141,6 @@ h3 {
     border: none;
     color: #6BEFEF;
     margin: 0 auto;
-    justify-content: baseline;
 }
 
 .intro a{
