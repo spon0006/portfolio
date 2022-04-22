@@ -262,7 +262,7 @@ footer{
     font-family: "arial", sans-serif;
 }
 
-.icon-social ul{
+.icons-social ul{
     display: block;
     height: inherit;
     width: 75%;
@@ -270,14 +270,17 @@ footer{
     line-height: 60px;
 }
 
-.icon-social li{
-    display: inline-block;
+.icons-social li{
+
+    display: inline;
     height: inherit;  
 }
 
-footer img {
-    max-width: 10%;
+.icons-social-img {
+    max-width: 5%;
 }
+
+
 
 .contact-footer{
     float: right;
